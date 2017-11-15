@@ -1,0 +1,27 @@
+create database library_management;
+use library_management;
+create table person(id int(10) primary key,name varchar(20),mob int(10),gender varchar(1),type varchar(10),address varchar(20))
+create table book(id int(10) primary key,name varchar(20),auther varchar(20),rate int(10));
+create table department(id int(10) primary key,name varchar(10));
+create table billing(id int(10) primary key, start_date date,end_date date, person_id int(10),foreign key(person_id) references person(id),book_id int(10),foreign key(book_id) references book(id));
+
+ show create table billing;
+alter table billing drop foreign key billing_ibfk_2;
+drop table teacher;
+
+alter table person add (department_id int(10),foreign key(department_id) references department(id));
+select * from  department;
+
+update person set department_id=202 where id=4;
+
+alter table person change type type varchar(20) not null;
+
+ select person.name,person.type,department.name from person join department on person.department_id=department.id;
+
+select person.id,person.name,person.type,department.id,department.name from person join department on person.department_id=department.id
+
+select person.name,person.type,book.name,billing.id from billing join person on (person.id = billing.person_id) join book on (book.id = billing.book_id);
+
+select person.name,person.type,book.name,book.rate,billing.start_date,billing.end_date  from billing join person on (person.id = billing.person_id) join book on (book.id = billing.book_id) where book.id>302;
+
+select name , count(gender) from person group by gender;
