@@ -1,0 +1,33 @@
+Hashes Methods
+
+Hash["a", 100, "b", 200]  
+Hash[ [ ["a", 100], ["b", 200] ] ]
+Hash["a" => 100, "b" => 200]   
+ h2 = { 7 => 35, "c" => 2, "a" => 1 }
+ h4 = { "a" => 1, "d" => 2, "f" => 35 }
+h3 = { "a" => 1, "c" => 2, 7 => 35 }
+ h2 == h3
+h3 == h4
+h2 == h4
+h4.clear
+h4.default
+h4.default = "cat"
+ h = { "a" => 100, "b" => 200 }
+ h.each {|key, value| puts "#{key} is #{value}"}
+ h.each_key {|key| puts key}
+h4.empty?
+h.fetch("a")
+h.has_value?(100)
+h.to_s
+h.delete("b")
+h2 = { "b" => 254, "c" => 300 }
+h.merge(h2)
+a={ "a"=>100, "b"=>254}
+a.merge!(h2)
+h.invert
+a = {"a"=>100, "b"=>500, "c"=>200}
+a.select {|k, v| k>"a"}
+a.select {|k, v| v<200}
+a.shift
+a.values
+a.values_at("b","c")
