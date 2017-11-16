@@ -1,0 +1,22 @@
+Ruby & Rails installation..
+
+check ruby versions;
+rvm list
+ruby -v
+
+
+for installing rail framework:
+gem install rails
+rails -v
+
+creating pjoct_name in framework:
+rails new airline_management_system                                          ---- (by defaut take database - sqllite)
+
+for delete project:
+rm -r project_name
+
+creating pjoct_name in framework:(databse: mysql , oracle....etc.)
+rails new project_name -d mysql
+
+cd file.txt(where your project is save.)
+rake db:create
