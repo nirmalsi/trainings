@@ -1,4 +1,4 @@
 class Biling < ApplicationRecord
 	belongs_to :person
-	belongs_to :book
+	has_many :book
 end
