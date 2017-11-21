@@ -1,4 +1,4 @@
 class Book < ApplicationRecord
-	has_many :billing
-	belongs_to :person , through :billing
+	belongs_to :billing
+	belongs_to :person , through: :billing
 end
