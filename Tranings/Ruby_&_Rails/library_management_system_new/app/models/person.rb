@@ -1,7 +1,7 @@
 class Person < ApplicationRecord
-	belongs_to :billing
-	has_many :books , through: :billing
-	belongs_to :department , :foreign_key => 'department_id'
+	has_many :billings
+	has_many :books , through: :billings
+	belongs_to :department 
 
-	validation :name , presence: true                                                                                                                                                                                                                                                              
+	#validation :name , presence: true                                                                                                                                                                                                                                                              
 end

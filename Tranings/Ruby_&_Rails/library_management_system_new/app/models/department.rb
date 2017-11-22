@@ -1,5 +1,5 @@
 class Department < ApplicationRecord
 	has_many :people
-	has_many :books , through: :billing 
-	has_many :billing , through: :person
+	#has_many :books , through: :billings 
+	has_many :billings , through: :people
 end
