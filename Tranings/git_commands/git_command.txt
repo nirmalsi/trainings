@@ -10,11 +10,13 @@ $ git push origin master
 
 At this point, the others can clone it down and push changes back up just as easily:
 
-$ git clone git@gitserver:/srv/git/project.git
+$ git clone https://github.com/nirmalsi/trainings.git
 $ cd project
 $ vim README
 $ git commit -am 'fix for the README file'
 $ git push origin master
+
+$ git pull https://github.com/nirmalsi/trainings.git
 
 
 
@@ -37,24 +39,38 @@ git add .
 
 or:
 
-git add --all
+....git add --all
 
 Commit the files that you've staged in your local repository.
 
-git commit -m 'First commit'
+.....git commit -m 'First commit'
 
 Copy remote repository URL field from your GitHub repository, in the right sidebar, copy the remote repository URL.
 
 In Terminal, add the URL for the remote repository where your local repostory will be pushed.
 
-git remote add origin <remote repository URL>
+.....git remote add origin <remote repository URL>
 
 Sets the new remote:
 
-git remote -v
+.....git remote -v
 
 Push the changes in your local repository to GitHub.
 
-git push origin master
+....git push origin master
 
 Pushes the changes in your local repository up to the remote repository you specified as the origin
+
+
+..create new branch
+..git checkout -b branch_name
+
+..move in new branch
+..git checkout branch_name
+
+..git push origin branch_name
+
+..history =(this command give the whole detail about previous command.)
+
+..git rm myfile.txt
+..git commit -m "remove file1.txt"
