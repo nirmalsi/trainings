@@ -1265,3 +1265,807 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-11-24 16:09:14 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 16:09:15 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 16:30:00 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 16:34:31 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 169ms (Views: 168.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 16:35:53 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 26ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bs.png" for 127.0.0.1 at 2017-11-24 16:35:53 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/bs.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-24 16:35:58 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bs.png" for 127.0.0.1 at 2017-11-24 16:35:58 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/bs.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-24 16:36:49 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bs.png" for 127.0.0.1 at 2017-11-24 16:36:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/bs.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-24 16:37:49 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/assets/images/bs.png" for 127.0.0.1 at 2017-11-24 16:37:49 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/assets/images/bs.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:43:32 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/assets/images/bs.png" for 127.0.0.1 at 2017-11-24 16:43:32 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/assets/images/bs.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:47:20 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/views/home/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/views/home/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/home/index.html.erb:42: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/home/index.html.erb:44: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:47:47 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (54.3ms)
+Completed 200 OK in 71ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:48:58 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/views/home/index.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+...end=( image_tag("bs.png") width="100" height="150");@output_...
+...                               ^
+/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/views/home/index.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ag("bs.png") width="100" height="150");@output_buffer.safe_a...
+...                               ^):
+  
+app/views/home/index.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:51:16 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/views/home/index.html.erb:8: syntax error, unexpected tINTEGER, expecting ')'
+...=( image_tag("bs.png  size: "50x50"") );@output_buffer.safe_...
+...                               ^
+/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/views/home/index.html.erb:8: syntax error, unexpected ')', expecting keyword_end
+..._tag("bs.png  size: "50x50"") );@output_buffer.safe_append='...
+...                               ^):
+  
+app/views/home/index.html.erb:8: syntax error, unexpected tINTEGER, expecting ')'
+app/views/home/index.html.erb:8: syntax error, unexpected ')', expecting keyword_end
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:52:09 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/views/home/index.html.erb:8: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+... image_tag("bs.png " ,  size :"50x50") );@output_buffer.safe...
+...                               ^
+/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/views/home/index.html.erb:8: syntax error, unexpected ')', expecting keyword_end
+...g("bs.png " ,  size :"50x50") );@output_buffer.safe_append='...
+...                               ^):
+  
+app/views/home/index.html.erb:8: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:8: syntax error, unexpected ')', expecting keyword_end
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:54:17 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "bs.png " is not present in the asset pipeline.):
+     5:         </head>
+     6:          <body style="background-color:powderblue;">
+     7:            <center><h1 style="background-color:DodgerBlue;">Library Management System</h1></center>
+     8:                      <%= image_tag("bs.png " ,  :size=>"50x50") %>          
+     9:              <center>
+    10:            <a href="https://www.google.co.in/"><q>Visit Google Search</q></a>
+    11:            </center>
+  
+app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb__681120239__639713648'
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:54:46 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "bs.png " is not present in the asset pipeline.):
+     5:         </head>
+     6:          <body style="background-color:powderblue;">
+     7:            <center><h1 style="background-color:DodgerBlue;">Library Management System</h1></center>
+     8:                      <%= image_tag "bs.png " ,  :size=>"50x50" %>          
+     9:              <center>
+    10:            <a href="https://www.google.co.in/"><q>Visit Google Search</q></a>
+    11:            </center>
+  
+app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb__681120239_74936130'
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:54:47 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "bs.png " is not present in the asset pipeline.):
+     5:         </head>
+     6:          <body style="background-color:powderblue;">
+     7:            <center><h1 style="background-color:DodgerBlue;">Library Management System</h1></center>
+     8:                      <%= image_tag "bs.png " ,  :size=>"50x50" %>          
+     9:              <center>
+    10:            <a href="https://www.google.co.in/"><q>Visit Google Search</q></a>
+    11:            </center>
+  
+app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb__681120239__656324548'
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:54:47 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "bs.png " is not present in the asset pipeline.):
+     5:         </head>
+     6:          <body style="background-color:powderblue;">
+     7:            <center><h1 style="background-color:DodgerBlue;">Library Management System</h1></center>
+     8:                      <%= image_tag "bs.png " ,  :size=>"50x50" %>          
+     9:              <center>
+    10:            <a href="https://www.google.co.in/"><q>Visit Google Search</q></a>
+    11:            </center>
+  
+app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb__681120239__653025678'
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:54:47 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "bs.png " is not present in the asset pipeline.):
+     5:         </head>
+     6:          <body style="background-color:powderblue;">
+     7:            <center><h1 style="background-color:DodgerBlue;">Library Management System</h1></center>
+     8:                      <%= image_tag "bs.png " ,  :size=>"50x50" %>          
+     9:              <center>
+    10:            <a href="https://www.google.co.in/"><q>Visit Google Search</q></a>
+    11:            </center>
+  
+app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb__681120239__651641388'
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:54:48 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "bs.png " is not present in the asset pipeline.):
+     5:         </head>
+     6:          <body style="background-color:powderblue;">
+     7:            <center><h1 style="background-color:DodgerBlue;">Library Management System</h1></center>
+     8:                      <%= image_tag "bs.png " ,  :size=>"50x50" %>          
+     9:              <center>
+    10:            <a href="https://www.google.co.in/"><q>Visit Google Search</q></a>
+    11:            </center>
+  
+app/views/home/index.html.erb:8:in `_app_views_home_index_html_erb__681120239__637696208'
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:55:29 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:56:08 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:56:28 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:58:21 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (208.8ms)
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0xb427a114>:0xb24496b8>):
+    23:          	 <input type="text" name="department name=">  <br>
+    24:          	 address :<br>
+    25:          	 <input type="text" name="address ">  <br><br>
+    26:          	     <%= f.radio_button :autolyse, false, :checked => true %>
+    27: 
+    28:          	 <input type="submit" value="submit"><br>
+    29:            </form>
+  
+app/views/home/index.html.erb:26:in `_app_views_home_index_html_erb__681120239__652063218'
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 16:58:31 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 17:08:56 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 17:15:03 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 17:15:28 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 17:15:30 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&address+=" for 127.0.0.1 at 2017-11-24 17:15:44 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/assets/images/bs.png" for 127.0.0.1 at 2017-11-24 17:15:47 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/beryl/Desktop/trainings/Tranings/Ruby_&_Rails/library_management_system_new/app/assets/images/bs.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:15:49 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:18:31 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (255.4ms)
+Completed 500 Internal Server Error in 259ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0xb427a114>:0xb27ec4f0>):
+    24:          	      </ul>
+    25:          	 <input type="Name" name="type ">  <br>
+    26: 
+    27:               <%= f.radio_button :contactmethod, 'sms' %>
+    28:               <%= f.label :contactmethod, 'SMS', :value => 'sms' %>
+    29: 
+    30:          	 Department name :<br>
+  
+app/views/home/index.html.erb:27:in `_app_views_home_index_html_erb__681120239__650156828'
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:19:48 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:20:25 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:22:02 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 20ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:22:04 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:22:46 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:22:54 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:23:06 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:53:39 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:54:56 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:55:23 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:55:36 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:56:33 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 17:57:17 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:14:08 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:16:03 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:17:07 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:17:07 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:17:44 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:20:16 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:27:21 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:27:22 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:29:53 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:30:02 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:31:33 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:31:34 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:31:35 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:32:19 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:32:20 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:33:10 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 21.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:35:34 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:38:57 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-24 18:39:34 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&+gender=&address+=" for 127.0.0.1 at 2017-11-24 18:39:39 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", " gender"=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&+gender=&address+=" for 127.0.0.1 at 2017-11-24 18:40:39 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", " gender"=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/?name%3D+=&contact=&type+=&department+name%3D=&+gender=&address+=" for 127.0.0.1 at 2017-11-24 18:51:40 +0530
+Processing by HomeController#index as HTML
+  Parameters: {"name= "=>"", "contact"=>"", "type "=>"", "department name="=>"", " gender"=>"", "address "=>""}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+

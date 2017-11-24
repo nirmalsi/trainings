@@ -1,37 +1,86 @@
-      <!DOCTYPE html>
-      <html>
+ <!DOCTYPE html>
+    <html>
         <head>
-      	  <title>First Page</title>
+      	  <style>
+      	  	 .city
+      	  	    {
+      	  	    	background-color: gray;
+      	  	    	color: black;
+      	  	    	
+      	  	    }
+      	  	   table , th , td
+      	  	   {
+      	  	   	  border: 1px solid black;
+      	  	   }
+      	  </style>
         </head>
-         <body style="background-color:powderblue;">
+        <body style="background-color:powderblue;">
            <center><h1 style="background-color:DodgerBlue;">Library Management System</h1></center>
+                     <%= image_tag "bs.png", :size => "100x100" %>          
            <center>
            <a href="https://www.google.co.in/"><q>Visit Google Search</q></a>
            </center>
-         
-
-           <form  style="background-color:pink;">
-             <h2 style="color:gray"> Fill The Person Detail.</h2>
+           <div>
+           	  <form  class ="form" style="background-color:pink;">
+             <h2 class="city"> Fill The Person Detail.</h2>
          	  Name :  <br>  
              <input type="text" name="name= ">  <br>
          	  mobile :<br>
          	 <input type="text" name="contact">  <br>
-         	 tupe :<br>
+         	 Person type :  
+         	    <ul>
+         	      	<li>student</li>
+         	      	 <li>teacher</li>
+         	     </ul>
          	 <input type="Name" name="type ">  <br>
          	 Department name :<br>
          	 <input type="text" name="department name=">  <br>
+         	 Gender :
+         	    <ul>
+         	       <li> 
+         	      	    male
+         	       </li>
+         	        <li>
+         	      	   female
+         	        </li>
+         	    </ul>
+         	 <input type="text" name=" gender">  <br>
          	 address :<br>
          	 <input type="text" name="address ">  <br>
+         	 Comment box:<br>
+         	 <textarea rows="4" cols="40">
+             </textarea>
+         	 <input type="submit" value="submit"><br>
            </form>
-
-         <br>
-        
-         </br>
-       
+           <div>
+           	<table class ="table">
+           	  <tr>
+           	    <td>Person Name</td>
+           	    <td>contact no</td>
+           	    <td>Gender</td>
+           	    <td>address</td>
+           	  </tr>
+           	  <tr>
+           	  	 <td>Nirmal</td>
+           	  	 <td>7206281070</td>
+           	  	 <td>male</td>
+           	  	 <td>kurukshetra</td>
+           	  </tr>
+           	    <tr>
+           	  	 <td>Nirmal</td>
+           	  	 <td>7206281070</td>
+           	  	 <td>male</td>
+           	  	 <td>kurukshetra</td>
+           	  </tr>
+           </table>
+           </div>
+           </div>
+         
+           <br>
+           
            <!--
                    write any thing ,comment area..
              -->
 
-          
         </body>
-      </html>
+    </html>
