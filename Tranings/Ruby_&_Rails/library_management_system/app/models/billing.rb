@@ -1,5 +1,5 @@
 class Billing < ApplicationRecord
 	  belongs_to :person
-	  belongs_to :books 
+	  belongs_to :book
 
 end

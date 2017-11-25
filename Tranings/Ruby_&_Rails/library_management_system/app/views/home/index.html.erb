@@ -68,13 +68,12 @@
                <br>
                  <% @billings.each do |billing| %>
                    <tr>
-                   <td><%= billing.person.name %> </td>
+                   <td><%= link_to billing.person.name,person_detail_path(id: billing.person.id) %> </td>
                    <td><%= billing.person.gender %></td>
                    <td><%= billing.person.mob %></td>
                    <td><%= billing.person.address %></td>
                    <td><%= billing.person.person_type %></td>
                    <td><%= billing.person.department.name %></td>
-                   <td><%= billing.book.book_title%></td>
 
 
                 </tr>
