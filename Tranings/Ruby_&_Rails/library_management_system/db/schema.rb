@@ -10,15 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171122112027) do
+ActiveRecord::Schema.define(version: 20171125082712) do
 
   create_table "billings", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.date "start_date"
     t.date "end_date"
+    t.integer "person_id"
+    t.integer "book_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "book_id"
-    t.integer "person_id"
   end
 
   create_table "books", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 20171122112027) do
     t.string "name"
     t.integer "mob"
     t.string "gender"
-    t.string "type"
+    t.string "person_type", limit: 10
     t.string "address"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

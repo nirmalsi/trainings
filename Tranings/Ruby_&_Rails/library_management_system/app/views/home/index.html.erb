@@ -18,10 +18,11 @@
            <center><h1 style="background-color:DodgerBlue;">Library Management System</h1></center>
                      <%= image_tag "bs.png", :size => "100x100" %>          
            <center>
-           <a href="https://www.google.co.in/"><q>Visit Google Search</q></a>
+           <a href="https://www.google.co.in/" target="_blank"><q>Visit Google Search</q></a>
            </center>
-           <div>
-           	  <form  class ="form" style="background-color:pink;">
+           <div  style="background-color:pink;">
+           <div style="display: inline-block;">
+           	  <form  class ="form">
              <h2 class="city"> Fill The Person Detail.</h2>
          	  Name :  <br>  
              <input type="text" name="name= ">  <br>
@@ -30,8 +31,8 @@
          	 Person type :  
          	    <ul>
          	      	<li>student</li>
-         	      	 <li>teacher</li>
-         	     </ul>
+         	      	<li>teacher</li>
+         	    </ul>
          	 <input type="Name" name="type ">  <br>
          	 Department name :<br>
          	 <input type="text" name="department name=">  <br>
@@ -52,35 +53,40 @@
              </textarea>
          	 <input type="submit" value="submit"><br>
            </form>
-           <div>
+           </div>
+           <div style="display: inline-block; vertical-align:top;padding-top: 20px;padding-left: 100px;">
            	<table class ="table">
            	  <tr>
            	    <td>Person Name</td>
-           	    <td>contact no</td>
            	    <td>Gender</td>
+                <td>Contact</td>
            	    <td>address</td>
+           	    <td>Person type</td>
+                 <td>Person department</td>
            	  </tr>
-           	  <tr>
-           	  	 <td>Nirmal</td>
-           	  	 <td>7206281070</td>
-           	  	 <td>male</td>
-           	  	 <td>kurukshetra</td>
-           	  </tr>
-           	    <tr>
-           	  	 <td>Nirmal</td>
-           	  	 <td>7206281070</td>
-           	  	 <td>male</td>
-           	  	 <td>kurukshetra</td>
-           	  </tr>
+
+               <br>
+                 <% @billings.each do |billing| %>
+                   <tr>
+                   <td><%= billing.person.name %> </td>
+                   <td><%= billing.person.gender %></td>
+                   <td><%= billing.person.mob %></td>
+                   <td><%= billing.person.address %></td>
+                   <td><%= billing.person.person_type %></td>
+                   <td><%= billing.person.department.name %></td>
+                   <td><%= billing.book.book_title%></td>
+
+
+                </tr>
+                <% end %>
+           	 
            </table>
            </div>
            </div>
          
-           <br>
-           
-           <!--
-                   write any thing ,comment area..
-             -->
+
+          
+
 
         </body>
     </html>
