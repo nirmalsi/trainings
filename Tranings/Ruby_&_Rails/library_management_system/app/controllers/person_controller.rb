@@ -1,7 +1,13 @@
 class PersonController < ApplicationController
 	def show_details
 	 
-	@people = Person.find(params[:id])
+	@person = Person.find(params[:id])
 	end
+
+	def create_person
+		@person = Person.all
+		
+	end
+	
 
 end

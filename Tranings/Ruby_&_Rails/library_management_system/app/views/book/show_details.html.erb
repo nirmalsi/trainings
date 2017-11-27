@@ -1,0 +1,31 @@
+
+
+ 
+   <style>
+        table, th, td 
+          {
+             border: 1px solid black;
+             border-collapse: collapse;
+          }
+   </style>
+ 
+   <body style="background-color: grey;">
+    <h2>Detail About Book</h2>
+	<table >
+	    <tr>
+          <td>Book Name</td>
+          <td>Author</td>
+          <td>price</td>
+    
+       </tr>
+       <tr>
+       	  <td><%= @book.book_title %></td>
+          <td><%= @book.author %></td>
+          <td><%= @book.price %></td>
+         
+       </tr>
+		  
+
+	</table>
+   </body>
+		

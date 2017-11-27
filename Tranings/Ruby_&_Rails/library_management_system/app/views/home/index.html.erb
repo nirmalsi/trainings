@@ -21,6 +21,7 @@
            <a href="https://www.google.co.in/" target="_blank"><q>Visit Google Search</q></a>
            </center>
            <div  style="background-color:pink;">
+
            <div style="display: inline-block;">
            	  <form  class ="form">
              <h2 class="city"> Fill The Person Detail.</h2>
@@ -54,6 +55,7 @@
          	 <input type="submit" value="submit"><br>
            </form>
            </div>
+
            <div style="display: inline-block; vertical-align:top;padding-top: 20px;padding-left: 100px;">
            	<table class ="table">
            	  <tr>
@@ -63,17 +65,23 @@
            	    <td>address</td>
            	    <td>Person type</td>
                  <td>Person department</td>
+                <td>Person book</td>
+
            	  </tr>
 
                <br>
                  <% @billings.each do |billing| %>
                    <tr>
                    <td><%= link_to billing.person.name,person_detail_path(id: billing.person.id) %> </td>
+
+
                    <td><%= billing.person.gender %></td>
                    <td><%= billing.person.mob %></td>
                    <td><%= billing.person.address %></td>
                    <td><%= billing.person.person_type %></td>
                    <td><%= billing.person.department.name %></td>
+
+                   <td><%= link_to billing.book.book_title,book_detail_path(id: billing.book.id) %> </td>
 
 
                 </tr>
@@ -82,9 +90,8 @@
            </table>
            </div>
            </div>
-         
-
-          
+              <center><h1><mark><%= link_to "Create New Person",create_person_path %></mark></h1></center>
+          <center><h1><mark><%= link_to "Create New Book",create_book_path %> </mark></h1></center>
 
 
         </body>
