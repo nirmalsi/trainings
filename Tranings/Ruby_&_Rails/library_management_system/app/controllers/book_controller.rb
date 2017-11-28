@@ -7,12 +7,16 @@ class BookController < ApplicationController
 	end
 
 	def create_book
-     @create_book_form = Book.new	
+          
+     @create_book_form = Book.new
 	end
 
 	def insert_book_form	
-		Book.create(book_title: params[:books][:book_title])
-	end
+         
+      Book.create(book_title: params[:book_title], author: params[:author], price: params[:price])	
+
+
+    end
 
 	
   

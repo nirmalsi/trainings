@@ -1,15 +1,24 @@
 
-  <%= form_for(:books, method: "post") do |f| %>
-  <%= f.label :title%><br>
-  <%= f.text_field :book_title %>
- <%#= text_field(:book, :author, size: 20) %>
-<%#= text_field(:book, :price, size: 20) %>
 
+<body style="background-color: grey">
+  
 
-<%= f.submit %>
-  <% end %>
-
-
+<form  action ="/create_book_form" method="post">
+   Book Name:<br>
+  <input type="text" name="book_title" value="" >
+  <br>
+   Author:<br>
+  <input type="text" name="author" value="" >
+  <br>
+   Price:<br>
+  <input type="text" name="price" value="" >
+  <br>
+ 
+  <br>
+  <input type="submit" value="Submit">
+</form>
+ 
+  </body>
 
 
      
