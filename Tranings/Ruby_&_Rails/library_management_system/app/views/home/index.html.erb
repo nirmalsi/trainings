@@ -20,43 +20,15 @@
            <center>
            <a href="https://www.google.co.in/" target="_blank"><q>Visit Google Search</q></a>
            </center>
+
            <div  style="background-color:pink;">
 
            <div style="display: inline-block;">
-           	  <form  class ="form">
-             <h2 class="city"> Fill The Person Detail.</h2>
-         	  Name :  <br>  
-             <input type="text" name="name= ">  <br>
-         	  mobile :<br>
-         	 <input type="text" name="contact">  <br>
-         	 Person type :  
-         	    <ul>
-         	      	<li>student</li>
-         	      	<li>teacher</li>
-         	    </ul>
-         	 <input type="Name" name="type ">  <br>
-         	 Department name :<br>
-         	 <input type="text" name="department name=">  <br>
-         	 Gender :
-         	    <ul>
-         	       <li> 
-         	      	    male
-         	       </li>
-         	        <li>
-         	      	   female
-         	        </li>
-         	    </ul>
-         	 <input type="text" name=" gender">  <br>
-         	 address :<br>
-         	 <input type="text" name="address ">  <br>
-         	 Comment box:<br>
-         	 <textarea rows="4" cols="40">
-             </textarea>
-         	 <input type="submit" value="submit"><br>
-           </form>
-           </div>
-
+           	 
+       `
            <div style="display: inline-block; vertical-align:top;padding-top: 20px;padding-left: 100px;">
+           <center><h1><u>Detail About People.</u></h1></center>
+           <h2>
            	<table class ="table">
            	  <tr>
            	    <td>Person Name</td>
@@ -70,27 +42,26 @@
            	  </tr>
 
                <br>
-                 <% @billings.each do |billing| %>
-                   <tr>
-                   <td><%= link_to billing.person.name,person_detail_path(id: billing.person.id) %> </td>
+              <% @billings.each do |billing| %>
+              <tr>
+                <td><%= link_to billing.person.name,person_detail_path(id: billing.person.id) %> </td>
+                  <td><%= billing.person.gender %></td>
+                  <td><%= billing.person.mob %></td>
+                  <td><%= billing.person.address %></td>
+                  <td><%= billing.person.person_type %></td>
+                  <td><%= billing.person.department.name %></td>
+
+                <td><%= link_to billing.book.book_title,book_detail_path(id: billing.book.id) %> </td>
 
 
-                   <td><%= billing.person.gender %></td>
-                   <td><%= billing.person.mob %></td>
-                   <td><%= billing.person.address %></td>
-                   <td><%= billing.person.person_type %></td>
-                   <td><%= billing.person.department.name %></td>
-
-                   <td><%= link_to billing.book.book_title,book_detail_path(id: billing.book.id) %> </td>
-
-
-                </tr>
-                <% end %>
+              </tr>
+              <% end %>
            	 
-           </table>
+          </table></h2>
+
            </div>
            </div>
-              <center><h1><mark><%= link_to "Create New Person",create_person_path %></mark></h1></center>
+          <center><h1><mark><%= link_to "Create New Person",create_person_path %></mark></h1></center>
           <center><h1><mark><%= link_to "Create New Book",create_book_path %> </mark></h1></center>
 
 
