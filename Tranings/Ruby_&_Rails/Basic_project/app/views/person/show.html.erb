@@ -1,0 +1,22 @@
+hello
+<table border="2">
+   <tr>
+   	  <td>
+   	  	Person name
+   	  </td>
+   	  <td>
+   	  	person department
+   	  </td>
+   	  
+   </tr>
+   <tr>
+   <br>
+	 <% @people.each do |person| %>
+     <td><%= person.name %></td>
+    <td><%= person.department %></td> 
+     <% end %>
+    </tr>
+
+</table>
+ 
+

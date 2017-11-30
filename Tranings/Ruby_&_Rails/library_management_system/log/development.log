@@ -24341,3 +24341,188 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 356ms (Views: 293.8ms | ActiveRecord: 61.3ms)
 
 
+Started GET "/" for ::1 at 2017-11-30 10:17:25 +0530
+  [1m[35m (37.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (16.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+Started GET "/" for ::1 at 2017-11-30 10:17:26 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mBilling Load (23.8ms)[0m  [1m[34mSELECT `billings`.* FROM `billings`[0m
+  [1m[36mBilling Load (27.0ms)[0m  [1m[34mSELECT `billings`.* FROM `billings`[0m
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 1 LIMIT 1[0m
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 1 LIMIT 1[0m
+  [1m[36mDepartment Load (0.5ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  [1m[36mDepartment Load (9.8ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  [1m[36mBook Load (0.6ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 2 LIMIT 1[0m
+  [1m[36mBook Load (9.3ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 2 LIMIT 1[0m
+  [1m[36mPerson Load (0.4ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 3 LIMIT 1[0m
+  [1m[36mPerson Load (1.3ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 3 LIMIT 1[0m
+  [1m[36mDepartment Load (1.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 6 LIMIT 1[0m
+  [1m[36mDepartment Load (1.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 6 LIMIT 1[0m
+  [1m[36mBook Load (1.3ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 1 LIMIT 1[0m
+  [1m[36mBook Load (1.4ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 1 LIMIT 1[0m
+  [1m[36mCACHE Person Load (0.0ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPerson Load (1.4ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 1 LIMIT 1[0m
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mDepartment Load (0.9ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  [1m[36mBook Load (1.1ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 3 LIMIT 1[0m
+  [1m[36mBook Load (2.1ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 3 LIMIT 1[0m
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 5 LIMIT 1[0m
+  [1m[36mPerson Load (2.1ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 5 LIMIT 1[0m
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 5 LIMIT 1[0m
+  [1m[36mDepartment Load (2.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 5 LIMIT 1[0m
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 4 LIMIT 1[0m
+  [1m[36mBook Load (1.9ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 4 LIMIT 1[0m
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 8 LIMIT 1[0m
+  [1m[36mPerson Load (1.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 8 LIMIT 1[0m
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  [1m[36mCACHE Book Load (0.0ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 4 LIMIT 1[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mDepartment Load (2.8ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  [1m[36mPerson Load (1.1ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 14 LIMIT 1[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 4 LIMIT 1[0m
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPerson Load (1.0ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 14 LIMIT 1[0m
+  [1m[36mBook Load (2.1ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 12 LIMIT 1[0m
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  [1m[36mPerson Load (1.8ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 24 LIMIT 1[0m
+  [1m[36mBook Load (1.5ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 12 LIMIT 1[0m
+  [1m[36mDepartment Load (2.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m
+  [1m[36mPerson Load (1.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 24 LIMIT 1[0m
+  [1m[36mBook Load (2.3ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 27 LIMIT 1[0m
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m
+  [1m[36mPerson Load (2.1ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 22 LIMIT 1[0m
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Load (8.7ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 27 LIMIT 1[0m
+  [1m[36mBook Load (2.1ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 26 LIMIT 1[0m
+  [1m[36mPerson Load (1.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 22 LIMIT 1[0m
+  [1m[36mPerson Load (2.0ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 21 LIMIT 1[0m
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  [1m[36mDepartment Load (1.7ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 4 LIMIT 1[0m
+  [1m[36mBook Load (1.0ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 26 LIMIT 1[0m
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 25 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (1052.1ms)
+  [1m[36mPerson Load (0.8ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 21 LIMIT 1[0m
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 4 LIMIT 1[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 25 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (1285.3ms)
+Completed 200 OK in 1411ms (Views: 1293.9ms | ActiveRecord: 116.2ms)
+
+
+Completed 200 OK in 1687ms (Views: 1550.6ms | ActiveRecord: 119.2ms)
+
+
+Started GET "/create_person" for ::1 at 2017-11-30 10:17:32 +0530
+Processing by PersonController#create_person as HTML
+  Rendering person/create_person.html.erb within layouts/application
+  Rendered person/create_person.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/create_book" for ::1 at 2017-11-30 10:17:34 +0530
+Processing by BookController#create_book as HTML
+  Rendering book/create_book.html.erb within layouts/application
+  Rendered book/create_book.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/create_book_form" for ::1 at 2017-11-30 10:18:10 +0530
+Processing by BookController#insert_book_form as HTML
+  Parameters: {"book_title"=>"General knowledge", "author"=>"no one", "price"=>"300"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  [1m[32mINSERT INTO `books` (`book_title`, `price`, `created_at`, `updated_at`, `author`) VALUES ('General knowledge', 300, '2017-11-30 04:48:10', '2017-11-30 04:48:10', 'no one')[0m
+  [1m[35m (79.2ms)[0m  [1m[35mCOMMIT[0m
+No template found for BookController#insert_book_form, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 116.5ms)
+
+
+Started POST "/create_person_form" for ::1 at 2017-11-30 10:18:48 +0530
+Processing by PersonController#insert_person_form as HTML
+  Parameters: {"name"=>"rakesh", "mob"=>"78459632", "gender"=>"male", "address"=>"kkr", "person_type"=>"teacher", "department_id"=>"2"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `people` (`name`, `mob`, `gender`, `person_type`, `address`, `created_at`, `updated_at`, `department_id`) VALUES ('rakesh', 78459632, 'male', 'teacher', 'kkr', '2017-11-30 04:48:48', '2017-11-30 04:48:48', 2)[0m
+  [1m[35m (70.5ms)[0m  [1m[35mCOMMIT[0m
+No template found for PersonController#insert_person_form, rendering head :no_content
+Completed 204 No Content in 97ms (ActiveRecord: 71.5ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  `books`.* FROM `books` LIMIT 11[0m
+  [1m[36mBilling Load (0.5ms)[0m  [1m[34mSELECT  `billings`.* FROM `billings` LIMIT 11[0m
+  [1m[36mBilling Load (0.5ms)[0m  [1m[34mSELECT  `billings`.* FROM `billings` LIMIT 11[0m
+  [1m[36mBilling Load (0.5ms)[0m  [1m[34mSELECT  `billings`.* FROM `billings` LIMIT 11[0m
+  [1m[36mBilling Load (0.5ms)[0m  [1m[34mSELECT  `billings`.* FROM `billings` LIMIT 11[0m
+  [1m[36mBilling Load (0.5ms)[0m  [1m[34mSELECT  `billings`.* FROM `billings` LIMIT 11[0m
+Started GET "/" for ::1 at 2017-11-30 14:22:32 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBilling Load (0.3ms)[0m  [1m[34mSELECT `billings`.* FROM `billings`[0m
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 1 LIMIT 1[0m
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 2 LIMIT 1[0m
+  [1m[36mPerson Load (0.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 3 LIMIT 1[0m
+  [1m[36mDepartment Load (0.2ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 6 LIMIT 1[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 1 LIMIT 1[0m
+  [1m[36mCACHE Person Load (0.0ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 3 LIMIT 1[0m
+  [1m[36mPerson Load (0.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 5 LIMIT 1[0m
+  [1m[36mDepartment Load (0.2ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 5 LIMIT 1[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 4 LIMIT 1[0m
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 8 LIMIT 1[0m
+  [1m[36mDepartment Load (0.2ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  [1m[36mCACHE Book Load (0.0ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 4 LIMIT 1[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 14 LIMIT 1[0m
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 12 LIMIT 1[0m
+  [1m[36mPerson Load (0.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 24 LIMIT 1[0m
+  [1m[36mDepartment Load (0.2ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 27 LIMIT 1[0m
+  [1m[36mPerson Load (0.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 22 LIMIT 1[0m
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 26 LIMIT 1[0m
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 21 LIMIT 1[0m
+  [1m[36mDepartment Load (0.2ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 4 LIMIT 1[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 25 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (61.8ms)
+Completed 200 OK in 243ms (Views: 235.8ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/" for ::1 at 2017-11-30 15:32:10 +0530
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  [1m[36mBilling Load (0.3ms)[0m  [1m[34mSELECT `billings`.* FROM `billings`[0m
+  [1m[36mPerson Load (0.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 1 LIMIT 1[0m
+  [1m[36mDepartment Load (0.2ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 2 LIMIT 1[0m
+  [1m[36mPerson Load (0.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 3 LIMIT 1[0m
+  [1m[36mDepartment Load (0.2ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 6 LIMIT 1[0m
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 1 LIMIT 1[0m
+  [1m[36mCACHE Person Load (0.0ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 3 LIMIT 1[0m
+  [1m[36mPerson Load (0.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 5 LIMIT 1[0m
+  [1m[36mDepartment Load (0.2ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 5 LIMIT 1[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 4 LIMIT 1[0m
+  [1m[36mPerson Load (0.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 8 LIMIT 1[0m
+  [1m[36mDepartment Load (0.2ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  [1m[36mCACHE Book Load (0.0ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 4 LIMIT 1[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mPerson Load (0.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 14 LIMIT 1[0m
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 12 LIMIT 1[0m
+  [1m[36mPerson Load (0.3ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 24 LIMIT 1[0m
+  [1m[36mDepartment Load (0.2ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 27 LIMIT 1[0m
+  [1m[36mPerson Load (0.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 22 LIMIT 1[0m
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 26 LIMIT 1[0m
+  [1m[36mPerson Load (0.2ms)[0m  [1m[34mSELECT  `people`.* FROM `people` WHERE `people`.`id` = 21 LIMIT 1[0m
+  [1m[36mDepartment Load (0.2ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 4 LIMIT 1[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT  `books`.* FROM `books` WHERE `books`.`id` = 25 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 52ms (Views: 46.3ms | ActiveRecord: 4.9ms)
+
+

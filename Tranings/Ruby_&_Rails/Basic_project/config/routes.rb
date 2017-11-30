@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
-  get 'new/f1'
+  
+   root 'person#show'
 
-  get 'new/f2'
+   get "/person/:id", to:"person#show",as:"person_detail"
+
+
+  
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
