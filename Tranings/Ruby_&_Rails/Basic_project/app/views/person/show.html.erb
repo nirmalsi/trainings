@@ -1,4 +1,4 @@
-hello
+<h2>Home page.</h2>
 <table border="2">
    <tr>
    	  <td>
@@ -7,13 +7,16 @@ hello
    	  <td>
    	  	person department
    	  </td>
-   	  
+   	  <td>
+   	  	person home
+   	  </td>
    </tr>
-   <tr>
-   <br>
-	 <% @people.each do |person| %>
+  
+   	 <% @people.each do |person| %> 
+	  <tr>
      <td><%= person.name %></td>
     <td><%= person.department %></td> 
+    <td><%= link_to person.home.name, home_detail_path(id: person.home.id) %></td>
      <% end %>
     </tr>
 

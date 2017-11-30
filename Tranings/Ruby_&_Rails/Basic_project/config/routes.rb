@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
   
+
    root 'person#show'
 
    get "/person/:id", to:"person#show",as:"person_detail"
+
+   
+   get "/home/:id", to:"home#show", as:"home_detail"
 
 
   
