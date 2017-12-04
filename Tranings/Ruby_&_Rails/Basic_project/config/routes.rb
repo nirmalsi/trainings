@@ -14,6 +14,11 @@ Rails.application.routes.draw do
 
    get "/comment/", to:"comment#show", as:"comment_detail"
 
+   get "/create", to:"post#create_form", as:"create_form"
+   post "/create", to:"post#insert_form", as:"insert_form"
+
+
+
 
   
 
