@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
    get "/post/:id", to:"post#new", as:"post_new_detail"
 
+   get "/comment/", to:"comment#show", as:"comment_detail"
+
 
   
 

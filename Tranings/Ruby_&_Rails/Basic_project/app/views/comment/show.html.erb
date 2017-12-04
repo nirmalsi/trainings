@@ -1,1 +1,28 @@
-hi, i am comment view.
+
+<h1>see all comments:</h1>
+<table border="2">
+   <tr>
+   	  <td>
+   	  	Post title
+   	  </td>
+   	  <td>
+   	  	comment title
+   	  </td>
+   	   <td>
+   	  	Posted by person
+   	  </td>
+   	  <td>
+   	  	comment by person
+   	  </td>
+   </tr>
+  
+   	 <% @comments.each do |comment| %> 
+	  <tr>
+        <td><%= comment.post.title %></td>
+        <td><%= comment.body %></td> 
+        <td><%= comment.post.person.name %></td>
+        <td><%= comment.person.name %></td> 
+       <% end %>
+      </tr>
+
+</table>
