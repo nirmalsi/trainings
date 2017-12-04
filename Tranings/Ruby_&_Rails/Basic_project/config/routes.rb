@@ -8,7 +8,9 @@ Rails.application.routes.draw do
    
    get "/home/:id", to:"home#show", as:"home_detail"
 
-   get "/post/:id", to:"post#show",as:"post_detail"
+   get "/post/", to:"post#show", as:"post_detail"
+
+   get "/post/:id", to:"post#new", as:"post_new_detail"
 
 
   

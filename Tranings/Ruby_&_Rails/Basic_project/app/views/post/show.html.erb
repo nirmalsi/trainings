@@ -1,0 +1,19 @@
+<h1>see all post:</h1>
+<table border="2">
+   <tr>
+   	  <td>
+   	  	Post title
+   	  </td>
+   	  <td>
+   	  	person name
+   	  </td>
+   </tr>
+  
+   	 <% @posts.each do |post| %> 
+	  <tr>
+     <td><%= post.title %></td>
+    <td><%= post.person.name %></td> 
+     <% end %>
+    </tr>
+
+</table>
