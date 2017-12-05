@@ -77,6 +77,31 @@ show table;
 desc table_name;
 drop database db_name;
 
+update data in table:
+upadte tbl_name srt name = 'new_name' where id = 5;
+
+rename table name:
+rename table old_name_tbl to new_tbl_name;
+
+drop any column:
+alter table tble_name drop column column_name;
+
+rename column name:
+alter table tbl_name rename column email to emailid;
+alter table tbl_name change email emailid varchar(20);
+
+add any column:
+alter table tbl_name add column email varchar(20);
+
+modify in column name:
+alter table tbl_name modify column email varchar(10);
+
+special query(swap male femlae in tble):
+update tbl_name set= (case gender when 'm' then 'f' else 'm' end);
+
+
+
+
 
 
 
