@@ -2,6 +2,7 @@ cd Desktop
 cd ..
 ls     (show how many files are there)
 ls -l (full listing)
+ls -Srl (sorting by size memory)
 pwd  (present working directories)
 rmdir basic_linux_commands.txt  (deleting file & folder)
 
@@ -36,10 +37,34 @@ cp -r file1.txt file2.txt ~/Desktop/fo2  (multiple file copy )
 chmod 777 file1.txt  (give all permission)
 chmod 000 file1.txt  
 chmod ugo=rx file1.txt (give read & execute per. in user, group ,others of file1.txt)
+chmod o-r file1.txt
+ls -l (check for permission)
+
+pg file1.txt  (give output of file1.txt)
+ctl+d (come back in terminal)
+
 
 whoami  (give user)
 shutdown -h now (shutdown the system)
 clear (clear the window)
+
+zz + ctr (save & quit)
+delete by x or d
+copy by yy
+i (insert mode)
+Esc (return in command mode)
+ps -e (display all process)
+ps -ef (display all process with format)
+
+grep [option] pattern [file_name]
+-v :show string do not match in search string
+-c :display only the count of matching line.
+-n :show matching line & it's no.
+-i :match both (i + I)case
+-I :show name of file with the string
+
+ex: egrep 'rohan' myfile.txt
+
 
 
 Databases commands:
@@ -51,6 +76,39 @@ use dtabase_name;
 show table;
 desc table_name;
 drop database db_name;
+
+update data in table:
+upadte tbl_name srt name = 'new_name' where id = 5;
+
+rename table name:
+rename table old_name_tbl to new_tbl_name;
+
+drop any column:
+alter table tble_name drop column column_name;
+
+rename column name:
+alter table tbl_name rename column email to emailid;
+alter table tbl_name change email emailid varchar(20);
+
+add any column:
+alter table tbl_name add column email varchar(20);
+
+modify in column name:
+alter table tbl_name modify column email varchar(10);
+
+special query(swap male femlae in tble):
+update tbl_name set= (case gender when 'm' then 'f' else 'm' end);
+
+
+
+deleting foreign key:
+# show create table tabl_name;
+
+then check the dynamic name of foreign key:
+#alter tablr tbl_name drop foreign key 'dynamic_name';
+
+
+
 
 
 
