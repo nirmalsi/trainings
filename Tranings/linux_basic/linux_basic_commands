@@ -101,6 +101,14 @@ update tbl_name set= (case gender when 'm' then 'f' else 'm' end);
 
 
 
+deleting foreign key:
+# show create table tabl_name;
+
+then check the dynamic name of foreign key:
+#alter tablr tbl_name drop foreign key 'dynamic_name';
+
+
+
 
 
 
